@@ -47,5 +47,13 @@ public class Cat extends Animal{
                 "took a nap and has " + getEnergy() + " energy");
     }
 
+    public String toString() {
+        //NEED to use the super keyword when the method
+        //has been overridden and you're intending to call
+        //the parent class version
+        return super.toString() + " and is a cat" +
+                " with " + lives + " lives";
+    }
+
 
 }
