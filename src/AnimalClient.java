@@ -26,5 +26,8 @@ public class AnimalClient {
         //call the overridden version of sleep() that was
         //defined in Cat
         c1.sleep();
+
+        //once a method is overridden, the parent class version
+        //cannot be called from a client class
     }
 }
